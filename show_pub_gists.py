@@ -3,8 +3,10 @@
 
 # show_pub_gists.py will show listing of a user's publicly available gists.
 #
-# Usage: show_pub_gists.py <user>
+# Usage: show_pub_gists.py <user> <option>
 # User is the user whose gists are to be queried
+# option cab be 'l' for list of gists only or 'd' for list with content of gists.
+
 # The first time when user's gist is queried it will save the current
 # gists for that user and show the date of the latest gist. The user
 # will be saved in a file named "/tmp/show_pub_gists.<user>" and list of gists will be saved in
