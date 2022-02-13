@@ -22,7 +22,3 @@ To reset all queries, delete `/tmp/show_pub_gists.*`
 * User not found: 255
 * User has not published any gists: 1
 * Success (first or subsequent queries): 0
-
-## License
-
-GNU General Public License v3.0
